@@ -24,5 +24,6 @@ end
 def swap_elements_from_to(array, index, destination_index)
   array.insert(destination_index, array[index])
   array.delete_at(index)
+  array
 end
 
