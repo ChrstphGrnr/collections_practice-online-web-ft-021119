@@ -51,7 +51,7 @@ def find_a(array)
 end
     
     
-def sum_array(array)
+#def sum_array(array)
   array_sum = 0 
   array.each do |item|
     if item.is_a?(Integer)
@@ -70,3 +70,4 @@ def sum_array(array)
       array_integers << item
     end
   array_integers.inject {|sum, n| sum + n}
+end
