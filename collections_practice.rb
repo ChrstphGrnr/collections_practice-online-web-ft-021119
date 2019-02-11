@@ -16,6 +16,6 @@ end
 
 def swap_elements(array)
   array.sort do |second, third|
-    array[1] <=> array[2]
+    second.index == third.index
   end
 end
