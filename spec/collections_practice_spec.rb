@@ -31,9 +31,9 @@ describe 'collections practice' do
   end
   
   #Question 4_advanced
-  describe '#swap_elements_from' do
+  describe '#swap_elements_from_to' do
     it 'taking in an array, an index and a replacement index as input, moving an element in the array from its index to the replacement index.' do
-      expect(swap_elements_for(["Dollar", "Euro", "Yen", "Renminbi"], 0, 2)).to.eq(["Euro", "Yen", "Dollar", "Renminbi"])
+      expect(swap_elements_from_to(["Dollar", "Euro", "Yen", "Renminbi"], 0, 2)).to.eq(["Euro", "Yen", "Dollar", "Renminbi"])
     end
   end
 
