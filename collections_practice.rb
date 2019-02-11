@@ -64,4 +64,9 @@ end
 # advanced
 
 def sum_array(array)
-  array.inject {|sum, n| if n.is_a?(n)
+  array_integers = []
+  array.each do |item| 
+    if item.is_a?(integer)
+      array_integers << item
+    end
+  array_integers.inject {|sum, n| sum + n}
