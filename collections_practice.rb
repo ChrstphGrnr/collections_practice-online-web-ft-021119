@@ -66,7 +66,7 @@ end
 def sum_array(array)
   array_integers = []
   array.each do |item| 
-    if item.is_a?(integer)
+    if item.is_a?(Integer)
       array_integers << item
     end
   end
