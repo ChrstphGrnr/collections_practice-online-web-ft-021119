@@ -52,13 +52,13 @@ end
     
     
 #def sum_array(array)
-  array_sum = 0 
-  array.each do |item|
-    if item.is_a?(Integer)
-      array_sum += item
-    end
-  end
-  array_sum
+#  array_sum = 0 
+#  array.each do |item|
+#    if item.is_a?(Integer)
+#      array_sum += item
+#    end
+#  end
+#  array_sum
 end
 
 # advanced
