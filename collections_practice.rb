@@ -1,3 +1,4 @@
+require 'pry'
 def sort_array_asc(integers)
   integers.sort 
   
@@ -23,6 +24,7 @@ end
 
 def swap_elements_from_to(array, index, destination_index)
   array[destination_index] = array.slice!(index)
+  binding.pry
   array
 end
 
