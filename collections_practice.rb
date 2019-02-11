@@ -72,3 +72,6 @@ def sum_array(array)
   end
   array_integers.inject {|sum, n| sum + n}
 end
+
+
+def 
