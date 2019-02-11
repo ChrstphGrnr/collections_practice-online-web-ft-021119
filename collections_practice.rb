@@ -50,3 +50,5 @@ def find_a(array)
   start_with_a
 end
     
+    
+def add_s
