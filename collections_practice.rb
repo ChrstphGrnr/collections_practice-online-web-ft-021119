@@ -12,3 +12,10 @@ def sort_array_char_count(strings)
     first.length <=> second.length
   end
 end
+
+
+def swap_elements(array)
+  array.sort do |second, third|
+    array[1] <=> array[2]
+  end
+end
