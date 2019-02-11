@@ -69,5 +69,6 @@ def sum_array(array)
     if item.is_a?(integer)
       array_integers << item
     end
+  end
   array_integers.inject {|sum, n| sum + n}
 end
