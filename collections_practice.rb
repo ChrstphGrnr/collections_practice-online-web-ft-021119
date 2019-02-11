@@ -78,7 +78,7 @@ def add_s(array)
   array.each_with_index do |item, index|
     if index == 1 
     else
-      item =+ "s"
+      item += "s"
     end
   end
   array
