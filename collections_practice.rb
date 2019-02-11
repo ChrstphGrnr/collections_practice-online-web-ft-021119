@@ -63,3 +63,5 @@ end
 
 # advanced
 
+def sum_array(array)
+  array.inject {|sum, n| if n.is_a?(n)
